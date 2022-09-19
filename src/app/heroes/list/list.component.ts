@@ -11,6 +11,4 @@ export class ListComponent {
   deleteHero(): void {
     this.heroDeleted = this.heroes.shift() || ''
   }
-
-
 }
